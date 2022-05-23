@@ -1,0 +1,135 @@
+.principal{
+	position: relative;
+	margin: 0 auto;
+	width: 1440px;
+	height: 1024px;
+	background: #F3F5FC;
+}
+.principal img{
+	position: absolute;
+	margin: 40px 84px;
+	width: 31.09px;
+	height: 48px;
+}
+.btnComecar{
+	margin: 390px 560px;
+	background: #0A3871;
+	color: #FFFFFFFF;
+}
+.btnAdicionar{
+	margin: 528px 560px;
+	color: #0A3871;
+}
+.adicionar{
+	display: none;
+}
+.adicionar input{
+	position: absolute;
+	width: 513px;
+	height: 48px;
+	margin: 256px 376px;
+	font-family: 'Inter';
+	font-size: 32px;
+	line-height: 150%;
+	background: none;
+	border: none;
+	resize: none;
+	overflow: hidden;
+	color: #0A3871;
+}
+.adicionar input::placeholder{
+	color: #0A3871;
+}
+.adicionar img{
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	margin: 668px 376px;
+}
+.adicionar label{
+	position: absolute;
+	margin: 667px 400px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	font-family: 'Inter';
+}
+.btnSalvar{
+	margin: 701px 376px;
+	background: #0A3871;
+	color: #FFFFFFFF;
+}
+.btnCancelar{
+	margin: 701px 732px;
+	color: #0A3871;
+}
+.jogo{
+	display: none;
+}
+.tabuleiro{
+	display: block;
+	width: 1200px;
+	height: 800px;
+	margin: auto;
+}
+.forca{
+	position: absolute;
+	margin: 88px 573px;
+	width: 294px;
+	height: 360px;
+	background: blue;
+}
+.palavra{
+	position: absolute;
+	margin: 568px 320px;
+	width: 800px;
+	height: 152px;
+	background: red;
+}
+.palavra1{
+	position: absolute;
+	margin: 801px;
+	width: 50px;
+	height: 50px;
+	background: darkorange;
+}
+.btnNovoJogo{
+	margin: 904px 376px;
+	background: #0A3871;
+	color: #FFFFFFFF;
+}
+.btnDesistir{
+	margin: 904px 732px;
+	color: #0A3871;
+}
+.btn{
+	position: absolute;
+	width: 317px;
+	height: 105px;
+	border-radius: 24px;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 24px;
+	line-height: 18px;
+	font-family: 'Inter';
+	border-color: #FFFFFFFF;
+	cursor: pointer;
+}
+.btn1{
+	width: 332px;
+	height: 67px;
+}
+.btn:hover{
+	transform: scale(1.1);
+}
+.teste{
+	position: absolute;
+	margin: 971px 370px;
+	width: 340px;
+	height: 53px;
+	background: yellow;
+}
+
+.footer{
+	text-align: center;
+}
